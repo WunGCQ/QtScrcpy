@@ -34,6 +34,7 @@ VideoForm::VideoForm(bool framelessWindow, bool skin, QWidget *parent) : QWidget
     if (framelessWindow) {
         setWindowFlags(windowFlags() | Qt::FramelessWindowHint);
     }
+    setWindowOpacity(0.7);
 }
 
 VideoForm::~VideoForm()
